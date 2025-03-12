@@ -16,7 +16,11 @@ class AddEvent extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    alert('Event Added!');
+    const { title, date, category, description } = this.state;
+    const newEvent = { title, date, category, description };
+    
+    this.props.addEvent(newEvent); 
+    this.setState({ title: '', date: '', category: 'Social', description: '' }); 
   };
 
   render() {

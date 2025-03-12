@@ -30,8 +30,8 @@
   .listItem a {
     text-decoration: none;
     font-size: large;
-    position: relative; /* For the underline effect */
-    color: black; /* Link color */
+    position: relative;
+    color: black; 
     cursor: pointer;
   }
   

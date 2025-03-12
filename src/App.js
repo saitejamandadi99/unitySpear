@@ -1,11 +1,18 @@
-import Home from './components/Home'
-import './App.css';
+import React, { Component } from 'react';
+import Home from './components/Home';
+import Events from './components/Events';
+import AddEvent from './components/AddEvent';
 
-function App() {
-  return (
-    <Home />
-    
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Home />
+        <Events />
+        <AddEvent />
+      </div>
+    );
+  }
 }
 
 export default App;

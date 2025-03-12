@@ -1,0 +1,94 @@
+.AppContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  
+
+  .MainContent {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background-color: #3498db; 
+    background-size: cover; 
+    background-position: center; 
+    overflow: hidden; 
+  }
+  
+ 
+  .ContentOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white; 
+    z-index: 1; 
+    padding: 0 20px;
+  }
+  
+  .ContentOverlay h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .ContentOverlay h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .ContentOverlay p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .exploreButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .exploreButton:hover {
+    background-color: #e55347;
+  }
+  
+  /* About page styling */
+  .AboutPage {
+    padding: 2rem;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .AboutPage h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .AboutPage p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .AboutPage ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .AboutPage ul li {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  
+  

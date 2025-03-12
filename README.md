@@ -1,4 +1,4 @@
-Here's the updated version of the README script, with the local storage part removed and the "Contributing" section also removed:
+
 
 ---
 

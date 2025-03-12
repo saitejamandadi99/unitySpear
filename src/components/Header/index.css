@@ -1,0 +1,54 @@
+.navbarContainer {
+    background-color: white;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    font-family: Roboto;
+  }
+
+  .logoImage{
+    height: 5rem;
+    width: 10rem;
+    padding-left: 3rem;
+  }
+  
+  .listContainer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5rem;
+  }
+  
+  .listItem {
+    padding: 0.5rem;
+  }
+  
+  .listItem a {
+    text-decoration: none;
+    font-size: large;
+    position: relative; /* For the underline effect */
+    color: black; /* Link color */
+    cursor: pointer;
+  }
+  
+  
+  .listItem a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: #ff6347;
+    transition: width 0.3s ease;
+  }
+  
+  
+  .listItem a:hover::after {
+    width: 100%;
+  }
+  
